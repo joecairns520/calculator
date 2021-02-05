@@ -7,6 +7,10 @@ h1 {
   margin-left: 20px;
 }
 
+p {
+  color: "white";
+}
+
 #calculator_div {
   background-color: #767676;
 }
