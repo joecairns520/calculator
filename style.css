@@ -13,17 +13,23 @@ p {
 
 #calculator_div {
   background-color: #767676;
+  height: 50%;
+  width: 50%;
+  margin: auto;
 }
 
 #calculator_out {
   background-color: #405068;
+  text-align: right;
 }
 
 #numbers {
   background-color: #FF950E;
+  text-align: center;
 }
 
 #operator {
   background-color: #0EDAFF;
+  text-align: center;
 }
   
