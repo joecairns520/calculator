@@ -57,3 +57,34 @@ p {
   display: inline-block;
 }
 
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+.item7 { grid-area: item7; }
+.item8 { grid-area: item8; }
+.item9 { grid-area: item9; }
+.item0 { grid-area: item0; }
+.itempoint { grid-area: itempoint; }
+.itemequals { grid-area: itempoint; }
+
+.calculator-container {
+  display: grid;
+  grid-template-areas:
+    'item1 item2 item3 item4'
+    'item5 item6 item7 item8'
+    'item9 item0 itempoint itemequals';
+  grid-gap: 10px;
+  background-color: #767676;
+  padding: 10px;
+  margin: auto;
+}
+
+.calculator-container > div {
+  background-color: #FF950E;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
