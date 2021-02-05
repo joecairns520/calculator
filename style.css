@@ -20,16 +20,29 @@ p {
 
 #calculator_out {
   background-color: #405068;
+  height: 50px;
+  width: 45%;
   text-align: right;
+}
+
+#AC {
+  background-color: #CA48FF;
+  height: 50px;
+  width: 50px;
 }
 
 #numbers {
   background-color: #FF950E;
   text-align: center;
+  height: 50px;
+  width: 50px;
 }
 
 #operator {
   background-color: #0EDAFF;
   text-align: center;
+  height: 50px;
+  width: 50px;
 }
   
+
