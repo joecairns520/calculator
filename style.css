@@ -9,6 +9,7 @@ h1 {
 
 p {
   color: #FFFFFF;
+  text-align: center;
 }
 
 #calculator_div {
@@ -18,17 +19,26 @@ p {
   margin: auto;
 }
 
+#holder {
+  background-color: #767676;
+  height: 0.1px;
+  width: 50%;
+  margin: auto;
+}
+
 #calculator_out {
   background-color: #405068;
-  height: 50px;
-  width: 45%;
+  height: 75px;
+  width: 75%;
   text-align: right;
+  margin: auto;
 }
 
 #AC {
   background-color: #CA48FF;
   height: 50px;
   width: 50px;
+  text-align: center;
 }
 
 #numbers {
@@ -36,6 +46,7 @@ p {
   text-align: center;
   height: 50px;
   width: 50px;
+  display: inline-block;
 }
 
 #operator {
@@ -43,6 +54,6 @@ p {
   text-align: center;
   height: 50px;
   width: 50px;
+  display: inline-block;
 }
-  
 
