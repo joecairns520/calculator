@@ -7,7 +7,19 @@ h1 {
   margin-left: 20px;
 }
 
-#numbers {
+#calculator_div {
+  background-color: #767676;
+}
+
+#calculator_out {
   background-color: #405068;
+}
+
+#numbers {
+  background-color: #FF950E;
+}
+
+#operator {
+  background-color: #0EDAFF;
 }
   
